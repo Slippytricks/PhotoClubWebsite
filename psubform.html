@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<!--
+Developer: Trevor Murphy
+Date: 12/14/2017
+Description: ITWP1000 Web Project 4
+-->
+<!--
+	ZeroFour by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Submission - Photo Circulator</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Photo submission form for Photo Circulator, an online photo club(non-commercial use)" />
+		<meta name="keywords" content="submit, submission, form" />
+		<meta name="robots" content="noindex, nofollow">
+		<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="js/navbar.js"></script>
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body class="right-sidebar">
+		<div id="page-wrapper">
+
+			<!-- Header Wrapper -->
+				<div id="header-wrapper">
+					<div class="container">
+
+						<!-- Header -->
+							<header id="header">
+								<div class="inner">
+
+									<!-- Nav -->
+										<script>navbar(3);</script>
+
+								</div>
+							</header>
+
+					</div>
+				</div>
+
+			<!-- Main Wrapper -->
+				<div id="main-wrapper">
+					<div class="wrapper style2">
+						<div class="inner">
+							<div class="container">
+								
+										<div id="content">
+
+											<!-- Content -->
+
+												<article>
+													<header class="major">
+														<h2>Submit Your Photos!</h2>
+														<p>Get enough votes and have your photo displayed in the Winners Gallery!</p>
+													</header>
+
+													<form id="survey" class="center" name="survey" method="post" action="mailto:murphyt931@macomb.edu" enctype="text/plain">
+													<section>
+														<p>Please fill out each field as well as select an image file from your computer to send to the designated email via the form below. We do not keep your information we would just like to give you credit for your work.</p>
+														<p>We will try to post your picture as soon as possible and begin taking votes immediately. Without all the proper information, the process may take longer. If you believe there is an error in your submissions you may either resubmit or send us an email with the button below. Thanks and post again soon!
+														<fieldset>
+														<legend>Photo Submission Form</legend>
+															<table>
+																<tr>
+																	<td>Name:</td>
+																	<td><input type="text" name="Full Name" id="username" size="30" tabindex="1" placeholder="Full Name" required autofocus></td>
+																</tr>
+																<tr>
+																	<td>Email:</td>
+																	<td><input type="email" name="Email Address" id="email" size="30" tabindex="2" placeholder="Email Address" required></td>
+																</tr>
+																<tr>
+																	<td>File:</td>
+																	<td><input type="file" name="Pic File" id="file" accept="image/*" tabindex="3" required></td>
+																</tr>
+																<tr>
+																	<td>I am:</td>
+																	<td><input type="radio" name="Sex" id="CustSexM" value="male" size="30" tabindex="4">Male<input type="radio" name="Sex" id="CustSexF" value="female" size="30" tabindex="5">Female</td>
+																</tr>
+																<tr>
+																	<td>Age:</td>
+																	<td><input type="number" name="Age" id="range" value="12" min="0" max="100" step="1" tabindex="6"><output name="x" for="range"></output> Years Old</td>
+																</tr>
+																<tr>
+																	<td>Category:</td>
+																	<td><input list="category" name="Category" required>
+																	  <datalist id="category">
+																		<option value="Wildlife">
+																		<option value="Nature">
+																		<option value="Sports">
+																		<option value="Food">
+																	  </datalist></td>
+																</tr>
+																<tr>
+																	<td>Description:</td>
+																	<td><textarea name="Description" id="description" rows="4" placeholder="Enter a quick description (not required)" tabindex="7"></textarea></td>
+																</tr>
+																<tr>
+																	<td><input type="submit" name="submit_form" value="Submit Photo" /></td>
+																</tr>
+															</table>
+														</fieldset>
+													</section>
+													
+													<p>Please allow up to a week for your photo to be processed and posted. Thank you for your submission. We wish you luck. Please come back with more submissions soon!</p>
+
+												</article>
+
+										</div>
+									</div>
+									<!--<div class="4u 12u(mobile)">
+										<div id="sidebar">
+
+											<!-- Sidebar 
+
+												<section>
+													<header class="major">
+														<h2>Subheading</h2>
+													</header>
+													<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
+													Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
+													Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
+													consequat etiam.</p>
+													<footer>
+														<a href="#" class="button icon fa-info-circle">Find out more</a>
+													</footer>
+												</section>
+
+												<section>
+													<header class="major">
+														<h2>Subheading</h2>
+													</header>
+													<ul class="style2">
+														<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
+														<li><a href="#">Ornare in hendrerit in lectus</a></li>
+														<li><a href="#">Semper mod quis eget mi dolore</a></li>
+														<li><a href="#">Quam turpis feugiat sit dolor</a></li>
+														<li><a href="#">Amet ornare in hendrerit in lectus</a></li>
+														<li><a href="#">Semper mod quisturpis nisi</a></li>
+														<li><a href="#">Consequat etiam lorem phasellus</a></li>
+														<li><a href="#">Amet turpis, feugiat et sit amet</a></li>
+														<li><a href="#">Semper mod quisturpis nisi</a></li>
+													</ul>
+													<footer>
+														<a href="#" class="button icon fa-arrow-circle-o-right">Do Something</a>
+													</footer>
+												</section>
+
+										</div>-->
+									
+							</div>
+						</div>
+					</div>
+					
+				</div>
+
+			<!-- Footer Wrapper -->
+				<script src="js/footer.js"></script>
+
+
+		</div>
+
+		<!-- Scripts -->
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

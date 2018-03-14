@@ -1,0 +1,26 @@
+fieldset{
+	text-align: left;
+	padding: 5px;
+	background-color: #eee
+}
+input{
+	margin: 5px;
+}
+#description{
+	resize: none;
+}
+#username, #email, #description{
+	width: 300px;
+}
+#footnav{
+	border: 1px solid black;
+}
+.br10{
+	border-radius: 10px;
+}
+.paragraph{
+	margin: 0 auto;
+	text-align: left;
+	text-indent: 50px;
+	width: 70%
+}
